@@ -4,22 +4,26 @@ body {
 
 }
 
-.tunnel {
-  display: inline-block;
-  margin-left: 260px;
-  margin-right: 250px;
-  margin-top: 65px ;
-  width: 1000px;
-  height: 600px;
-  -
-}
+/*.tunnel {*/
+/*  display: inline-block;*/
+/*  margin-left: 260px;*/
+/*  margin-right: 250px;*/
+/*  margin-top: 65px ;*/
+/*  width: 1000px;*/
+/*  height: 600px;*/
+/*}*/
+
 
 .coraline {
 	position: absolute;
 	position: relative;
 	display: inline-block;
-	margin-left: 650px;
+	margin-left: 400px;
+	margin-top: 170px;
+	width: 220px;
+	height: 380px;
 }
+
 
 .wrapper {
 	position: relative;
@@ -31,7 +35,45 @@ body {
 	background-image: url("https://i.pinimg.com/736x/0f/df/0f/0fdf0f71a4c84b818c9369699ce126fd.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
-	webkit-box-shadow: -1px -1px 56px 2px rgba(19,5,56,1);
--moz-box-shadow: -1px -1px 56px 2px rgba(19,5,56,1);
-box-shadow: -1px -1px 56px 2px rgba(19,5,56,1);
+	-webkit-box-shadow: -4px -1px 58px 10px rgba(39,17,82,1);
+-moz-box-shadow: -4px -1px 58px 10px rgba(39,17,82,1);
+box-shadow: -4px -1px 58px 10px rgba(39,17,82,1);
+
 }
+
+h1 {
+	display: inline-block;
+	position: relative;
+	font-size: 50px;
+	margin-left: 680px;
+	margin-top: 10px;
+	color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px lavenderblush;, 0 0 5px darkblue;
+}
+
+
+h1:hover {
+  text-decoration: white wavy underline;
+}
+
+.coraline {
+  animation: rotation 3s linear;
+  animation-iteration-count: 1
+  transition: 0.3s;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
