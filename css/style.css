@@ -4,15 +4,6 @@ body {
 
 }
 
-/*.tunnel {*/
-/*  display: inline-block;*/
-/*  margin-left: 260px;*/
-/*  margin-right: 250px;*/
-/*  margin-top: 65px ;*/
-/*  width: 1000px;*/
-/*  height: 600px;*/
-/*}*/
-
 
 .coraline {
 	position: absolute;
@@ -26,6 +17,7 @@ body {
 
 
 .wrapper {
+	display: inline-block;
 	position: relative;
 	top: 50%;
 	left: 50%;
@@ -70,6 +62,3 @@ h1:hover {
     transform: rotate(359deg);
   }
 }
-
-
-
