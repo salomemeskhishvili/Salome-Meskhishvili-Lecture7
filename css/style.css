@@ -20,7 +20,7 @@ body {
 	display: inline-block;
 	margin-left: 400px;
 	margin-top: 170px;
-	width: 220px;
+	width: 230px;
 	height: 380px;
 }
 
@@ -59,7 +59,7 @@ h1:hover {
 .coraline {
   animation: rotation 3s linear;
   animation-iteration-count: 1
-  transition: 0.3s;
+
 }
 
 @keyframes rotation {
@@ -69,11 +69,7 @@ h1:hover {
   to {
     transform: rotate(359deg);
   }
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(359deg);
-  }
 }
+
+
 
